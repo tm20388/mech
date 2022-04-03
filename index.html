@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+  <meta name="author" content="">
+  <link rel="canonical" href="http://localhost:4000/">
+
+  <title>Машинисты</title>
+
+  <link rel="shortcut icon" type="image/x-icon" href="/./assets/images/favicon.png">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  
+  <!-- Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+  
+  <!-- Bootstrap Modified -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  
+  <!-- Theme Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/theme.css">
+  
+  <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+
+
+  <body id="page-top" class="homefirstpage">
+
+	  <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+  <div class="container">
+    <img src="/./assets/images/favicon.png" width="60" height="60">
+    <a class="navbar-brand" href="/index.html">
+      <strong>ашинисты</strong>
+    </a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto d-flex text-center">
+        
+          <li class="nav-item"><a class="nav-link" href="#about">О нас</a></li>
+        
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Проекты</a></li>
+        
+          <li class="nav-item"><a class="nav-link" href="#team">Команда</a></li>
+        
+          <li class="nav-item"><a class="nav-link" href="#contact">Контакты</a></li>
+                      
+      </ul>
+
+      <div class="icon-block mt-3 d-flex justify-content-between social text-center">  
+        
+          <a target="_blank" href="https://telegram.me/avdotij1" class="pb-3 pr-3">
+            <img src="assets/images/telegram.png" width="25" height="25">
+          </a>
+        
+          <a target="_blank" href="mailto:ilya.konanykhin@gmail.com" class="pb-3 pr-3">
+            <img src="assets/images/email.png" width="25" height="25">
+          </a>
+          
+      </div>
+    </div>
+  </div>
+</nav>
+    <div class="modal fade show" id="welcome_modal" tabindex="-1" aria-labelledby="ModalPopoversLabel" style="display: block;" aria-modal="true" role="dialog">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content p-3 shadow-lg">
+      <div class="modal-header" id="modtit">
+        <h5 class="modal-title">Привет! Меня зовут Илья, я&nbsp;руководитель &laquo;Машинистов&raquo;</h5>
+      </div>
+      <div class="modal-body">
+        Мы&nbsp;давно и&nbsp;много программируем отличные сайты и&nbsp;мобильные приложения для хороших людей. С&nbsp;удовольствием познакомимся с&nbsp;еще большим количеством хороших людей&nbsp;&mdash; напишите или позвоните мне, если вам нужна качественная разработка или компетентная консультация от&nbsp;людей &laquo;в&nbsp;теме&raquo;. <br>От&nbsp;плохих идей отговорим, хорошие&nbsp;&mdash; реализуем, а&nbsp;о&nbsp;самом разговоре никому не&nbsp;расскажем. Если вы&nbsp;сами хотите работать с&nbsp;нами, пишите туда&nbsp;же.
+      </div>
+      <div class="modal-footer">
+        <button id="btnx" type="button" class="close_modal_btn btn btn-secondary btn-sm" data-dismiss="modal">
+          Понятно, Илья
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+    <main role="main" class="site-content">
+      
+<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mb-2rem bg-lightblue position-relative">
+  <div class="container">
+    <div class="pl-md-4 pr-0 h-100 tofront">
+        <div class="row justify-content-between">
+            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
+                <h1 class="mb-3">
+                  Надежная команда разработчиков
+                </h1>
+                <p class="mb-3 lead">
+                  Мы&nbsp;разрабатываем сложные программы&nbsp;&mdash; в&nbsp;основном, интернет-сервисы&nbsp;&mdash; с&nbsp;упором на&nbsp;долгосрочную поддержку. Большинство проектов на&nbsp;Ruby и&nbsp;JavaScript.
+                </p>
+            </div>
+            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:contain;background-repeat:no-repeat;background-image:url(/assets/images/banner.svg);">	
+            </div>
+        </div>
+    </div>
+  </div> 
+</div>
+<div class="container section" id="about">
+  <div class="row ml-md-5 ml-2">
+    <div class="col-md-12 main-loop p-0">
+      <h4 class="col-md-12 font-weight-bold spanborder">
+        <span>
+          О&nbsp;сильных сторонах
+        </span>
+      </h4>
+      <div class="mb-5 d-flex justify-content-between main-loop-card">
+        <div class="pr-3">
+          
+            <p class="excerpt">
+              <i class="fa fa-caret-right mr-4"></i>
+              тщательность и&nbsp;высокое качество проработки задач
+            </p>
+          
+            <p class="excerpt">
+              <i class="fa fa-caret-right mr-4"></i>
+              упор на&nbsp;выявление и&nbsp;решение реальных проблем вместо шаблонного &laquo;как сказали, так и&nbsp;сделали&raquo;
+            </p>
+          
+            <p class="excerpt">
+              <i class="fa fa-caret-right mr-4"></i>
+              большой опыт в&nbsp;разных областях
+            </p>
+          
+            <p class="excerpt">
+              <i class="fa fa-caret-right mr-4"></i>
+              отслеживаем правовые тонкости работы
+            </p>
+          
+            <p class="excerpt">
+              <i class="fa fa-caret-right mr-4"></i>
+              вариативность технических решений
+            </p>
+          
+            <p class="excerpt">
+              <i class="fa fa-caret-right mr-4"></i>
+              качественная коммуникация
+            </p>
+          
+            <p class="excerpt">
+              <i class="fa fa-caret-right mr-4"></i>
+              надежность
+            </p>
+          
+            <p class="excerpt">
+              <i class="fa fa-caret-right mr-4"></i>
+              растим смену, уделяя много внимания обучению новичков
+            </p>
+           
+        </div>      
+      </div>
+    </div>
+  </div>
+</div>
+<div class="border-top border-end">
+  <div class="container section" id="portfolio">
+    <div class="row ml-md-5 ml-2">
+      <h4 class="font-weight-bold spanborder col-md-12 mb-5">
+        <span>О&nbsp;реальных примерах проектов.</span>
+      </h4>
+      <div class="row gap-y listrecent listrecent listauthor">
+        
+          <div class="col-lg-6 mb-4">
+            <div class="pl-md-5 p-4 border rounded h-100">
+              <div class="row">
+                <div class="col-md-11">
+                  <h4 class="text-dark mb-0">
+                    Семейство сайтов, выросших из&nbsp;одного агрегатора.
+                  </h4>
+                  <div class="excerpt portfolio_description">
+                    Клиент, пришедший когда-то с&nbsp;одним сайтом, с&nbsp;нами уже более 10&nbsp;лет. За&nbsp;это время сайт-агрегатор вырос до&nbsp;10&nbsp;сайтов в&nbsp;4&nbsp;странах, разделившись на&nbsp;4&nbsp;направления, превратившись в&nbsp;набор онлайн-сервисов с&nbsp;мобильными приложениями. Мы&nbsp;разработали и&nbsp;по&nbsp;сей день поддерживаем весь функционал.
+                  </div>
+
+                  
+
+                    <div class="text-dark mt-2">Ключевые элементы:</div>
+
+                    
+                      <div class="excerpt mt-0 portfolio_technology">- Ruby on&nbsp;Rails + MongoDB</div>
+                    
+                      <div class="excerpt mt-0 portfolio_technology">- мобильные приложения на&nbsp;React c&nbsp;GraphQL</div>
+                    
+                      <div class="excerpt mt-0 portfolio_technology">- развертывание в&nbsp;кастомном облаке на&nbsp;Kubernetes</div>
+                    
+                      <div class="excerpt mt-0 portfolio_technology">- интеграции с&nbsp;SMS, WhatsApp, платежными шлюзами и&nbsp;тп.</div>
+                    
+                  
+
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-lg-6 mb-4">
+            <div class="pl-md-5 p-4 border rounded h-100">
+              <div class="row">
+                <div class="col-md-11">
+                  <h4 class="text-dark mb-0">
+                    Онлайн-образование и&nbsp;подготовка к&nbsp;ЕГЭ.
+                  </h4>
+                  <div class="excerpt portfolio_description">
+                    Клиент обратился с&nbsp;нетривиальной задачей: подхватить полуготовый проект после незапланированного расставания с&nbsp;разработчиком. В&nbsp;срок привели все в&nbsp;надлежащее состояние (попутно решив правовые проблемы в&nbsp;связи с&nbsp;переходом кода из&nbsp;одних рук в&nbsp;другие), успешно запустили и&nbsp;поддерживали сайты несколько лет. За&nbsp;это время проект разросся многократно, и&nbsp;клиент решил развивать свою команду. Согласовали план, передали все дела и&nbsp;обеспечили наш плавный выход.
+                  </div>
+
+                  
+
+                    <div class="text-dark mt-2">Ключевые элементы:</div>
+
+                    
+                      <div class="excerpt mt-0 portfolio_technology">- Ruby on&nbsp;Rails + Postgres</div>
+                    
+                      <div class="excerpt mt-0 portfolio_technology">- Vue.js</div>
+                    
+                      <div class="excerpt mt-0 portfolio_technology">- множество интеграций со&nbsp;сторонними сервисами</div>
+                    
+                      <div class="excerpt mt-0 portfolio_technology">- установка, настройка и&nbsp;интеграция коробочного решения для ведения онлайн-трансляций</div>
+                    
+                      <div class="excerpt mt-0 portfolio_technology">- мультитенантность</div>
+                    
+                  
+
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-lg-6 mb-4">
+            <div class="pl-md-5 p-4 border rounded h-100">
+              <div class="row">
+                <div class="col-md-11">
+                  <h4 class="text-dark mb-0">
+                    Участие в&nbsp;европейской команде
+                  </h4>
+                  <div class="excerpt portfolio_description">
+                    Начав с&nbsp;небольшой разработки на&nbsp;заказ для заказчика из&nbsp;Европы, интегрировались в&nbsp;его команду и&nbsp;уже несколько лет поддерживаем и&nbsp;переделываем куски старого очень большого монолита без GIT-истории и&nbsp;с&nbsp;бедным покрытием тестами на&nbsp;старте.
+                  </div>
+
+                  
+
+                    <div class="text-dark mt-2">Ключевые элементы:</div>
+
+                    
+                      <div class="excerpt mt-0 portfolio_technology">- legacy Ruby on&nbsp;Rails</div>
+                    
+                      <div class="excerpt mt-0 portfolio_technology">- JOP (jQuery Oriented Programming...)</div>
+                    
+                      <div class="excerpt mt-0 portfolio_technology">- Phoenix</div>
+                    
+                      <div class="excerpt mt-0 portfolio_technology">- WebRTC и&nbsp;все, что связано с&nbsp;вебинарами</div>
+                    
+                  
+
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-lg-6 mb-4">
+            <div class="pl-md-5 p-4 border rounded h-100">
+              <div class="row">
+                <div class="col-md-11">
+                  <h4 class="text-dark mb-0">
+                    Микросервисный AI-проект
+                  </h4>
+                  <div class="excerpt portfolio_description">
+                    Пришли в&nbsp;уже готовый сложно устроенный&nbsp;AI стартап. Множество микросервисов, общающихся между собой по&nbsp;АПИ, написанных на&nbsp;самых разных языках. Разрабатывали новые и&nbsp;поддерживали существующие функции в&nbsp;течение нескольких лет, пока профиль стартапа не&nbsp;сменился кардинально и&nbsp;код не&nbsp;был заморожен.
+                  </div>
+
+                  
+
+                    <div class="text-dark mt-2">Ключевые элементы:</div>
+
+                    
+                      <div class="excerpt mt-0 portfolio_technology">- PHP, Ruby (Sinatra), Java, Node.js...</div>
+                    
+                      <div class="excerpt mt-0 portfolio_technology">- Apache Thrift</div>
+                    
+                      <div class="excerpt mt-0 portfolio_technology">- Docker</div>
+                    
+                  
+
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container section" id="values">
+  <div class="ml-md-5 ml-2">
+    <h4 class="font-weight-bold spanborder pl-3">
+      <span>О ценностях</span>
+    </h4>  
+    <ol class="list-featured ml-3">				
+                   
+        <li class="mb-md-4">
+          <span class="ml-md-3 mr-md-5">
+            <h6 class="font-weight-bold">Коммуникация как основа всего.</h6>
+            <span class="d-block text-muted">
+              <span class="catlist">Мы&nbsp;очень серьезно относимся к&nbsp;построению диалога, прозрачности процедур и&nbsp;решений, документированию всего. Устраняем &laquo;глухие телефоны&raquo;, докапываемся до&nbsp;сути задач, добиваясь обсуждений с&nbsp;теми, кто принимает решения, а&nbsp;не&nbsp;теми, кто их&nbsp;пересказывает.</span>
+            </span>
+          </span>
+        </li>                
+                   
+        <li class="mb-md-4">
+          <span class="ml-md-3 mr-md-5">
+            <h6 class="font-weight-bold">Быть опорой</h6>
+            <span class="d-block text-muted">
+              <span class="catlist">Представлять ценность для клиента не&nbsp;в&nbsp;чистоте и&nbsp;академичности кода, а&nbsp;в&nbsp;решенных в&nbsp;срок задачах, предсказуемости, пунктуальности, сдержанных обещаниях и&nbsp;вовремя отвеченных сообщениях.</span>
+            </span>
+          </span>
+        </li>                
+                   
+        <li class="mb-md-4">
+          <span class="ml-md-3 mr-md-5">
+            <h6 class="font-weight-bold">Долгосрочные отношения</h6>
+            <span class="d-block text-muted">
+              <span class="catlist">Зачем порознь, если так хорошо вместе? Мы&nbsp;одинаково ценим и&nbsp;самого большого, и&nbsp;самого маленького нашего клиента, и&nbsp;стремимся оставаться вместе максимально долго.</span>
+            </span>
+          </span>
+        </li>                
+         
+    </ol>
+  </div> 
+</div>
+<div class="mb-2rem position-relative section">
+  <div class="container" id="team">
+    <div class="pl-4 pr-0 h-100 tofront">
+        <div class="row justify-content-between">
+          <div class="col-md-6 d-none d-md-block pr-0" style="background-size:contain;background-repeat:no-repeat;background-image:url(/);">	
+          </div>
+          <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
+              <h1 class="mb-3">
+                О людях
+              </h1>
+              <p class="mb-3 lead">
+                Нас около 10&nbsp;человек. Самый большой опыт 15+&nbsp;лет, самый маленький&nbsp;&mdash; 3&nbsp;года. Самый большой возраст 36&nbsp;лет, самый маленький&nbsp;&mdash; 20. Разбросаны по&nbsp;пяти городам и&nbsp;двум странам. Центр принятия решений находится в&nbsp;России, в&nbsp;Омске.
+              </p>
+          </div>
+        </div>
+    </div>
+  </div> 
+</div>
+<div class="container section" id="contacts">
+  <div class="row justify-content-between">
+    
+      <div class="col-md-4 pl-md-5">	
+        <p class="font-weight-bold spanborder">
+          <span>
+            Для вопросов и предложений
+          </span>
+        </p>
+
+        
+          <p class="excerpt contact">
+            <span class="font-weight-bold">
+              Эл. почта:
+            </span>
+            ilya.konanykhin@gmail.com
+          </p>
+        
+
+        
+          <p class="excerpt contact">
+            <span class="font-weight-bold">
+              Телефон/Telegram.:
+            </span>
+            +7 904 583 8805
+          </p>
+        
+
+        
+
+      </div>
+    
+      <div class="col-md-4 pl-md-5">	
+        <p class="font-weight-bold spanborder">
+          <span>
+            О коде
+          </span>
+        </p>
+
+        
+
+        
+
+        
+          <p class="">
+            <a target="_blank" href="https://github.com/ilya-konanykhin" class="pb-3 pr-3">
+              <img src="assets/images/github.png" height="30">
+              github.com/ilya-konanykhin
+            </a>
+          </p>
+        
+
+      </div>
+     
+  </div>
+</div> 
+
+    </main>
+
+	  <footer class="footer border-top p-4" id="footer" style="background-color: white">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-4">
+        <span class="copyright">
+          Copyright &copy; Машинисты 2022
+        </span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- Scripts: popper, bootstrap, theme, lunr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <script src="/assets/js/theme.js"></script>
+
+  </body>
+</html>
