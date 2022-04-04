@@ -139,4 +139,12 @@ $(function() {
     $("#welcome_modal").on('click', '.close_modal_btn', function () {
         $('#welcome_modal').fadeOut();
     });
+
+    $('.modal_link').on('click', function(){
+        $('#welcome_modal').fadeOut();
+    })
+
+    $('.nav-link').on('click', function(){
+        $('.navbar-collapse').removeClass('show', 2000, 'linear'); 
+    })
 });
